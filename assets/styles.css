@@ -1,0 +1,15 @@
+/* Optional custom styles for Azure Cloud Cost Planner */
+/* Most styling is handled inline in app.py for simplicity */
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 1.8rem !important;
+    }
+}
+
